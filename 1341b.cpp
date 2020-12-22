@@ -42,7 +42,7 @@ int main(){
 			if(p[i-1]) tmp--;
 			if(p[i+k-2]) tmp--;
 			if(tmp > mx){
-				mx = max(mx, tmp);
+				mx = tmp;
 				l = i-1;
 			}
 			
